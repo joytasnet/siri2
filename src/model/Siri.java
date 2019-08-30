@@ -5,8 +5,8 @@ import java.io.Serializable;
 public class Siri implements Serializable{
 	private String before;
 	private String after;
-	private String msg;
-	private boolean ok;
+	private String msg="";
+	private boolean ok=true;
 	public Siri() {}
 	public Siri(String before,String after) {
 		this.before=before;
